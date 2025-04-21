@@ -2,7 +2,7 @@ version: "3.9"
 
 services:
   headscale:
-    image: headscale/headscale:v0.23.0-alpha12
+    image: headscale/headscale:v0.25.1
     container_name: headscale
     restart: unless-stopped
     environment:
